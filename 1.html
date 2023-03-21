@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+  <title>WEB-HTML</title>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <script src="colors.js"></script>
+  <script src="lists.js"></script>
+</head>
+
+<body>
+  <h1 class="bold">
+    <a href="index.php">Storage</a>
+  </h1>
+  <button id="nightDayImg" value="NIGHT" onclick="nightDayHandler(this)">
+    <img src="NIGHT_NEW.png" />
+  </button>
+  <div id="grid">
+    <ul class="medium">
+      <li>
+        <a href="1.html"
+          ><script>
+            document.write(list[0]);
+          </script></a
+        >
+      </li>
+      <li>
+        <a href="2.html"
+          ><script>
+            document.write(list[1]);
+          </script></a
+        >
+      </li>
+      <li>
+        <a href="3.html"
+          ><script>
+            document.write(list[2]);
+          </script></a
+        >
+      </li>
+    </ul>
+    <div id="article">
+      <h2><a href="1.html">Music</a></h2>
+      <button id="writeButton" style="float: right;" onclick="location.href='post.html'">글쓰기</button>
+      <p>
+        <a
+          href="https://ko.wikipedia.org/wiki/HTML"
+          target="_blank"
+          title="HTML Wikipedia"
+          id="underline"
+          >Hypertext Markup Language (HTML)</a
+        >
+        is the standard markup language for
+        <strong>creating <u>web</u> pages</strong> and web applications.<br />
+        Web browsers receive HTML documents from a web server or from local
+        storage and render them into multimedia web pages.<br />
+        HTML describes the structure of a web page semantically and originally
+        included cues for the appearance of the document.<br />
+        HTML elements are the building blocks of HTML pages.<br />
+        With HTML constructs, images and other objects, such as interactive
+        forms, may be embedded into the rendered page.<br />
+        It provides a means to create structured documents by denoting
+        structural semantics for text such as headings, paragraphs, lists,
+        links, quotes and other items.<br />
+        HTML elements are delineated by tags, written using angle brackets..
+      </p>
+    </div>
+  </div>
+</body>

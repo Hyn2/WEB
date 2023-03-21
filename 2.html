@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+  <title>WEB-CSS</title>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <script src="colors.js"></script>
+  <script src="lists.js"></script>
+</head>
+
+<body>
+  <h1 class="bold"><a href="index.php">Storage</a></h1>
+  <button id="nightDayImg" value="NIGHT" onclick="nightDayHandler(this)">
+    <img src="NIGHT_NEW.png" />
+  </button>
+  <div id="grid">
+    <ul class="medium">
+      <li>
+        <a href="1.html"
+          ><script>
+            document.write(list[0]);
+          </script></a
+        >
+      </li>
+      <li>
+        <a href="2.html"
+          ><script>
+            document.write(list[1]);
+          </script></a
+        >
+      </li>
+      <li>
+        <a href="3.html"
+          ><script>
+            document.write(list[2]);
+          </script></a
+        >
+      </li>
+    </ul>
+    <div id="article">
+      <h2><a href="2.html">Guitar</a></h2>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+        width="8%"
+      />
+      <p>
+        <a
+          href="https://ko.wikipedia.org/wiki/CSS"
+          target="_blank"
+          title="CSS Wikipedia"
+          id="underline"
+          >Cascading Style Sheets (CSS)</a
+        >
+        is a style sheet language used for describing the presentation of a
+        document written in a markup language.<br />
+        Although most often used to set the visual style of web pages and user
+        interfaces written in HTML and XHTML, the language can be applied to any
+        XML document, <br />
+        including plain XML, SVG and XUL, and is applicable to rendering in
+        speech, or on other media.<br />
+        Along with HTML and JavaScript, CSS is a cornerstone technology used by
+        most websites to create visually engaging webpages, user interfaces for
+        web applications, and user interfaces for many mobile applications.
+      </p>
+    </div>
+  </div>
+</body>

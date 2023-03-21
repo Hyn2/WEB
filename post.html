@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <title>WEB-HTML</title>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="postStyle.css" />
+  <script src="colors.js"></script>
+  <script src="lists.js"></script>
+</head>
+
+<body>
+  <h1 class="bold">
+    <a href="index.php">Storage</a>
+  </h1>
+  <button id="nightDayImg" value="NIGHT" onclick="nightDayHandler(this)">
+    <img src="NIGHT_NEW.png" />
+  </button>
+  <div id="grid">
+    <div class="postPage">
+        <h3>글쓰기</h3>
+        <form action="PostDB.php" method="POST">
+          <input type="submit" id="articleSubmit">
+          <br></Br>
+          <input name="title" type="text" id="inputTitle" placeholder="제목을 입력하세요.">
+          <Br></Br>
+          <input name="name" type="text" id="inputName" placeholder="닉네임을 입력하세요.">
+          <Br></Br>
+          <input name="article" type="text" id="inputArticle" placeholder="내용을 입력하세요.">
+        </form>
+    </div>
+  </div>
+</body>
